@@ -1,0 +1,6 @@
+Question: how many accounts are student
+Answer:
+{'input': 'how many accounts are student', 'output': 'There are 356 unique accounts associated with the "Student" occupation (accounting for 657 transactions).'}
+Question: how many transaction are over 1000?
+Answer:
+{'input': 'how many transaction are over 1000?', 'output': '90'}
