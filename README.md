@@ -21,7 +21,7 @@ During development,  execution can occasionally output errors when trying to run
 ### 2.  Dataset Scale (2,500 Rows)
 Even when testing against a relatively small financial transaction dataset of roughly 2,500 lines, inputs take a amount of time to process. An LLM agent takes much longer as it must first read the prompt, inspect the dataframe columns, generate a Python prompt, executes it, read the terminal output, and finally translate it back into natural language. While slightly slower, it provides an great search layer for raw spreadsheets.
 
-### 2.  Text File for Results
+### 3.  Text File for Results
 csv_agent_answers.txt - Automatically appends user questions and AI responses into a local text file for permanent testing and evaluation tracking. 
 
 ---
